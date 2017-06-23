@@ -1,7 +1,9 @@
-subject: salut coucou
+subject: Hello 1
 
-Ça farte?
+message test nr 1
+good bye
 .
-subject: youpi message 2
+subject: Hello 2
 
-trolololéééé!
+message test nr 2
+good bye

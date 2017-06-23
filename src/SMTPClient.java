@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+
 
 
 /**
@@ -98,7 +98,7 @@ public class SMTPClient {
             int emailNr = 0;
             for (int i = 0; i < numberOfGroups; i++) {
 
-                //adress "sending" the mail
+                //address "sending" the mail
                 writer.print("MAIL FROM: " + emails.get(emailNr) + "\r\n");
                 writer.flush();
                 int saveSender = emailNr;
